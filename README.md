@@ -4,3 +4,16 @@ I use the random forest algorithm to forecast mid price dynamic over short time 
 I used Python scikit-learn library implementation of random forest. This GitHub repo contains the code, some sample data and the associated explanations (code comments). This repo is also associated to a post on my blog. You can find it [here](https://www.thertrader.com/). I'm happy for anyone to re-use my work as long as proper reference to it is made.
 
 I wanted to thank [LOBSTER](https://lobsterdata.com/) for providing the dataset used here
+
+## Code structure
+
+The code is organised around 4 files. In each file there is a detailled explanation and what is done along with some commented lines of code.
+
+**rf.labels.py**: Definition of labels used in the Random Forest model
+
+**rf.features.py**: Definition of features used in the Random Forest model
+
+**rf.calibration.py**: Calibration and test of the Random Forest model
+
+**useful.py**: Various useful functions used in the other 3 files (work in progress)
+
