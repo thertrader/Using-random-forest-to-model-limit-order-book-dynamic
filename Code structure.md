@@ -8,4 +8,4 @@ The code is organised around 4 files. In each file there is a detailled explanat
 
 **rf.calibration.py**: Calibration and test of the Random Forest model
 
-**useful.py**: Various usel functions (work in progress)
+**useful.py**: Various useful functions used in the other 3 files (work in progress)
