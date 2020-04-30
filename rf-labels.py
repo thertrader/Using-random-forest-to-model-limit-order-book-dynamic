@@ -24,7 +24,7 @@ from datetime import datetime
 
 
 # =============================================================================
-# 0 - BASIC PARAMETERS
+# 1 - BASIC PARAMETERS
 # =============================================================================
 os.chdir(r'/home/arno/work/research/lobster/data')
 
@@ -54,7 +54,7 @@ for tk in tickers:
 
 
 # =============================================================================
-# 1 - Y LABELS FUNCTION 
+# 2 - Y LABELS FUNCTION 
 # =============================================================================
 # outputFileName = '_Y10Sec.csv'
 # fwdTimeLength = 10
@@ -111,7 +111,7 @@ def labels(outputFileName, fwdTimeLength):
             del dfToExport,midRtn,mf
 
 # =============================================================================
-# 1 - RUN LABELS FUNCTION 
+# 3 - RUN LABELS FUNCTION 
 # =============================================================================
 labels(outputFileName = '_Y10Sec.csv', fwdTimeLength = 10)
 labels(outputFileName = '_Y20Sec.csv', fwdTimeLength = 20)        
