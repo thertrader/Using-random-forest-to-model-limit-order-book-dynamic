@@ -32,7 +32,6 @@ tickers = ['TSLA']
 #----- Lists of all files 
 theFiles = []  
 for tk in tickers:
-    # tk = 'INTC'
     os.chdir(r"/home/arno/work/research/lobster/data/" + tk)
     theFiles.extend(sorted(os.listdir()))
 
